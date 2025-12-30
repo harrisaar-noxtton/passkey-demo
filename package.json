@@ -1,0 +1,26 @@
+{
+  "name": "passkey-demo",
+  "version": "1.0.0",
+  "description": "Passkey Demo - Full Stack Application",
+  "private": true,
+  "engines": {
+    "node": "24.x",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "install:client": "cd client-passkey && npm install --include=dev",
+    "install:server": "cd server-passkey && npm install --include=dev",
+    "install:all": "npm run install:client && npm run install:server",
+    "build:client": "cd client-passkey && npm run build",
+    "build:server": "cd server-passkey && npm run build",
+    "build": "npm run build:client && npm run build:server",
+    "dev:client": "cd client-passkey && npm run dev",
+    "dev:server": "cd server-passkey && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "cd server-passkey && npm start",
+    "heroku-postbuild": "npm run install:all && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "test1@example.com": {
+    "id": "dGVzdDFAZXhhbXBsZS5jb20=",
+    "username": "test1@example.com",
+    "devices": []
+  },
+  "test2@example.com": {
+    "id": "dGVzdDJAZXhhbXBsZS5jb20=",
+    "username": "test2@example.com",
+    "devices": [
+      {
+        "credentialPublicKey": "pQECAyYgASFYIGmqJWYHPkynmA+0nJ+5vKMU8ULIVcJMB2NGZyqRg0E9IlggcCdp41s+LJ1qzWQ1Pyiu94it23gTcgA1Enpub/bHo5I=",
+        "credentialID": "Z2Zsc3RJTWo4WW5GMXpnWFhHcExueU96ZDQ4NlEydFVla2hHUWczRlN3UQ==",
+        "counter": 0,
+        "transports": [
+          "hybrid",
+          "internal"
+        ]
+      }
+    ]
+  },
+  "test3@example.com": {
+    "id": "dGVzdDNAZXhhbXBsZS5jb20=",
+    "username": "test3@example.com",
+    "devices": [
+      {
+        "credentialPublicKey": "pQECAyYgASFYILFausEEtR9xVa5egFcrxWTtlxnP9OcJ77jBJm+4nXi/IlggnMUm50/zYveKuUgvplEZTc1qPyaPdIjUXG5KNz+FomM=",
+        "credentialID": "ZTdtSzRCVkdja1VuS0V1eU43ZlFTYmpOR3dVYTJvY2trMHJCUFRNLXpMcw==",
+        "counter": 0,
+        "transports": [
+          "hybrid",
+          "internal"
+        ]
+      }
+    ]
+  },
+  "test5@example.com": {
+    "id": "dGVzdDVAZXhhbXBsZS5jb20=",
+    "username": "test5@example.com",
+    "devices": [
+      {
+        "credentialPublicKey": "pQECAyYgASFYICrC3c8YsNWmiN71rocmMxzP5ntj6HPK7beYwtSWbDbkIlgg4fj4+4+/2SnA5Uh8CMhoNOin9mhAIf6P9xwoDAK0AkQ=",
+        "credentialID": "cGVEVUgyRUhNVFZ3WmVmNWtQc3Iyd1o3YUhBeFVfaXc3NVpicjZFTUNMbw==",
+        "counter": 0,
+        "transports": [
+          "hybrid",
+          "internal"
+        ]
+      }
+    ]
+  },
+  "test10@example.com": {
+    "id": "dGVzdDEwQGV4YW1wbGUuY29t",
+    "username": "test10@example.com",
+    "devices": [
+      {
+        "credentialPublicKey": "pQECAyYgASFYIJXPSBGWVoHChUUPqNJYCR3ADDWteHf8brpr2Ij1MN1AIlgggeY0P0Y1rnDXmIIN13IZxLePQTgWRYXLGLrMKVfipR4=",
+        "credentialID": "bjR2emNXQjdMUVBYekd3X0JUNFdPZDlDaVY0X1lyWTlJRGkzWFlMQ183RQ==",
+        "counter": 0,
+        "transports": [
+          "hybrid",
+          "internal"
+        ]
+      }
+    ]
+  },
+  "test11@example.com": {
+    "id": "dGVzdDExQGV4YW1wbGUuY29t",
+    "username": "test11@example.com",
+    "devices": [
+      {
+        "credentialPublicKey": "pQECAyYgASFYIL5lkHJCIbIkENrNK0M8ji/Q2pe4Fhv6XqeIyFKub0sDIlggn34fugA7Jv9R16wVgMJsaL1ClOm6VDpu+WlEHztpzI8=",
+        "credentialID": "Y1BPUFVYa0xfSWxxd2V1SnUwRFZzWmxweDJuMXdWdkJDR1ZFZzNHMDQ2MA==",
+        "counter": 0,
+        "transports": [
+          "hybrid",
+          "internal"
+        ]
+      }
+    ]
+  },
+  "test555@example.com": {
+    "id": "dGVzdDU1NUBleGFtcGxlLmNvbQ==",
+    "username": "test555@example.com",
+    "devices": []
+  },
+  "user333@example.com": {
+    "id": "dXNlcjMzM0BleGFtcGxlLmNvbQ==",
+    "username": "user333@example.com",
+    "devices": []
+  },
+  "local1@example.com": {
+    "id": "bG9jYWwxQGV4YW1wbGUuY29t",
+    "username": "local1@example.com",
+    "devices": []
+  }
+}
