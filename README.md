@@ -5,7 +5,7 @@ This is a full-stack Passkey (WebAuthn) written in TypeScript using React and No
 You can access the demo at https://infinite-sea-48162-fffc840315ed.herokuapp.com/
 
 ## Why Heroku?
-Passkeys (WebAuthn) require a **Secure Context** (HTTPS) to function reliably. While browsers make an exception for `http://localhost`, mobile devices often fail to process passkeys correctly when testing via local network IPs or non-HTTPS connections. Deploying to Heroku provides a real HTTPS domain, which is the industry standard for stable cross-device (phone-to-computer) authentication.
+Passkeys (WebAuthn) require a **Secure Context** (HTTPS) to function reliably. While browsers make an exception for `http://localhost`, mobile devices often fail to process passkeys correctly when testing via local network IPs or non-HTTPS connections. 
 
 ## Environment Variables
 
